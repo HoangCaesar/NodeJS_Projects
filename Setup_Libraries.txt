@@ -1,0 +1,13 @@
+1) express: npx express-generator --no-view .
+
+ - YARN INSTALL
+
+2) yarn add nodemon mongoose cors crypto-js jsonwebtoken dotenv
+
+- npm scripts: --- yarn add jest supertest --save-dev cross-env 
+	       --- "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit",
+	       --- "dev": "cross-env NODE_ENV=development nodemon ./bin/www"
+	       --- "start": "cross-env NODE_ENV=production node app.js",
+- connect mongoose + dotenv in www
+
+3) Build folder structure
