@@ -1,0 +1,33 @@
+# =============================================== Users =============================================================
+
+### Test Get
+GET http://localhost:8080/api/v1/users
+
+### Test Get 1
+GET http://localhost:8080/api/v1/users/1324/sadasd
+
+### Test Post
+POST http://localhost:8080/api/v1/users/
+
+### Test Patch
+PATCH http://localhost:8080/api/v1/users/1234241
+
+### Test Delete
+DELETE http://localhost:8080/api/v1/users/1234
+
+# =============================================== Feeds =============================================================
+
+### Test Get
+GET http://localhost:8080/api/v1/feeds
+
+### Test Get 1
+GET http://localhost:8080/api/v1/feeds/aafly
+
+### Test Post
+POST http://localhost:8080/api/v1/feeds
+
+### Test Patch
+PATCH http://localhost:8080/api/v1/feeds/1234241
+
+### Test Delete
+DELETE http://localhost:8080/api/v1/feeds/1234
